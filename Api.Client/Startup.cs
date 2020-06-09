@@ -33,7 +33,7 @@ namespace Api.Client
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API AirLiquide", Version = "v1", Description = "API Desenvolvida em AspNet.Core, com conceito DDD, Verbs de Crud com interação com o SQL Server", Contact = new OpenApiContact { Name = "Anderson Nascimento"} });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API AirLiquide", Version = "v1", Description = "API Desenvolvida em AspNet.Core, com conceito DDD, Verbos de Crud com interação com o banco SQL Server, teste de integração das rota", Contact = new OpenApiContact { Name = "Anderson Nascimento"} });
             });
 
 
